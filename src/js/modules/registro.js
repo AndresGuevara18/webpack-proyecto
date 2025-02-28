@@ -3,7 +3,7 @@ export default function manejarRegistro() {
   const mensaje = document.getElementById('mensaje');
 
   if (!formulario || !mensaje) {
-    console.error('❌ Error: No se encontró el formulario o el mensaje.');
+    // console.error('❌ Error: No se encontró el formulario o el mensaje.');
     return;
   }
 
