@@ -2,6 +2,10 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   display: flex;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/009/334/702/large_2x/computer-display-surrounded-by-office-supplies-on-blue-background-clean-screen-for-web-page-promotion-free-photo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .sidebar {
@@ -83,4 +87,9 @@ th {
 
 tr:nth-child(even) {
   background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+  background-color: #8c8c8c;
+  color: #000; /* Asegura que el texto sea visible en fondo negro */
 }
