@@ -1,5 +1,5 @@
 export default function manejarRegistro() {
-  const formulario = document.getElementById('registroForm');
+  var formulario = document.getElementById('registroForm');
   const mensaje = document.getElementById('mensaje');
 
   if (!formulario || !mensaje) {
