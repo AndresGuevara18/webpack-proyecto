@@ -89,7 +89,6 @@ tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
-
 tr:nth-child(odd) {
   background-color: #8c8c8c;
   color: #000; /* Asegura que el texto sea visible en fondo negro */
