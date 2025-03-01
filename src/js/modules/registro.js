@@ -1,10 +1,9 @@
 export default function manejarRegistro() {
-  var formulario = document.getElementById('registroForm');
+  const formulario = document.getElementById('registroForm');
   const mensaje = document.getElementById('mensaje');
 
   if (!formulario || !mensaje) {
-    console.error('❌ Error: No se encontró el formulario o el mensaje.');
-    console.error('❌ Error: No se encontró el formulario o el mensaje.');
+    // console.error('❌ Error: No se encontró el formulario o el mensaje.');
     return;
   }
 
