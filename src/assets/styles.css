@@ -15,7 +15,6 @@ body {
 .sidebar ul {
   list-style: none;
   padding: 0;
-  padding: 0;
 }
 
 .sidebar li {
@@ -37,7 +36,6 @@ form {
   display: flex;
   flex-direction: column;
   width: 300px;
-  margin: auto;
   margin: auto;
 }
 
